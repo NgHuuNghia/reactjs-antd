@@ -1,0 +1,66 @@
+
+.title{
+  text-align: center;
+}
+
+.list-task{
+  margin-top: 10px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+td.action{
+
+  width: 20em;
+}
+
+
+.main{
+  margin: auto 2%;
+}
+
+.search-sort{
+  margin-top: 10px;
+}
+.btn-task-item{
+  margin-left: 10px;
+}
+.input-search{
+  width: 200px;
+}
+
+.task-search{
+  margin-top: 10px;
+}
+
+.input-search{
+  max-width: 100%;
+}
+.search{
+  width: 100%;
+  margin-bottom: 10px;
+  float: left;
+}
+/* .task-form{
+  margin-left: 10%;
+  width: 80%;
+} */
+
+button#btnSave{
+  margin-right: 2%;
+}
+
+.add-task{
+  width: 100%;
+  float: left;
+  margin-bottom: 10px;
+}
