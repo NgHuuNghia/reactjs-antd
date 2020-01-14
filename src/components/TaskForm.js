@@ -65,14 +65,20 @@ class TaskForm extends Component {
         e.preventDefault();
         this.props.onSubmitTask(this.state);
         this.setState({
-            visible: false,
-        });
+            id: '',
+            name: '',
+            status: true,
+            visible: false
+        })
     };
 
     handleCancel = (e) => {
         this.setState({
-            visible: false,
-        });
+            id: '',
+            name: '',
+            status: true,
+            visible: false
+        })
     };
 
     render() {
